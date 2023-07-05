@@ -1,16 +1,16 @@
-const refs = {
-    createMarkupButton: document.querySelector('[data-create]'),
-    destroyMarkupButton: document.querySelector('[data-destroy]'),
-    input: document.querySelector('[type="number"]'),
-    markupContainer: document.querySelector('#boxes'),
-};
+//const refs = {
+//    createMarkupButton: document.querySelector('[data-create]'),
+//    destroyMarkupButton: document.querySelector('[data-destroy]'),
+//    input: document.querySelector('[type="number"]'),
+//    markupContainer: document.querySelector('#boxes'),
+//};
 
-refs.createMarkupButton.addEventListener('click', onCreateButtonClick);
-refs.destroyMarkupButton.addEventListener('click', onDestroyButtonClick);
+//refs.createMarkupButton.addEventListener('click', onCreateButtonClick);
+//refs.destroyMarkupButton.addEventListener('click', onDestroyButtonClick);
 
-function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
+//function getRandomHexColor() {
+//    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+//}
 
 function onCreateButtonClick() {
     const inputValue = Number(refs.input.value);
